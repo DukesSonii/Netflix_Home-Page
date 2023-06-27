@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #07021f;
+}
+#netflix-contianer-wrapper{
+    overflow-x: hidden;
+}
+#wrapper{
+    overflow-x: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.landing-page-container{
+    width: 100%;
+    height: 100vh;
+    margin:  0 auto;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation img{
+    margin-left: 1rem;
+    margin-top: -6px;
+}
+.btn-select{
+    margin-right: 3rem;
+}
+select{
+    padding: 0.2rem 2rem;
+    background-color:black;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.sign-in{
+    margin-left: 1.3rem;
+    background-color: red;
+    padding: 0.5rem 0.6rem ;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.sign-in:hover{
+    background-color: rgb(177, 26, 26);
+}
+.main{
+    background: url(home.png) no-repeat center center/cover ;
+   display: flex;
+   height: 83vh;
+   width: 90vw;
+   margin-left: 5vw;
+   border-radius: 10px;
+   opacity: .8;
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+   box-shadow: 5vw 0 500px rgb(137, 17, 17) inset;
+}
+.main h1{
+    font-size: 3.5rem;
+    color: whitesmoke;
+}
+.para1{
+    margin-top: 1rem;
+    color: whitesmoke;
+    font-size:1.5rem ;
+}
+.para2{
+    margin-top: 1rem;
+    color: whitesmoke;
+    font-size:1.5rem ;
+}
+.input{
+    margin-top: 1rem;
+    padding: 1rem 6rem;
+    background-color:rgb(66, 64, 64,0.5);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid lightgoldenrodyellow;
+}
+.start{
+    margin-top: 1rem;
+    padding: 0.8rem 2.7rem;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    color: white;
+}
+.start:hover{
+    background-color: rgb(162, 6, 6);
+}
+
+.option{
+    background-color: white;
+    color: black;
+}
+.sub-hero-section{
+    width: 100%;
+    height: 90vh;
+}
+.hero-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.right-part{
+    position: relative;
+    z-index: 1;
+}
+
+.left-part{
+    color: white;
+}
+.left-part h2{
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+.left-part p{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+.sub-hero4-section{
+    width: 100%;
+    height: 90vh;
+}
+.hero4-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.left-part4{
+    color: white;
+}
+.left-part4 h2{
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+.left-part4 p{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+.sub-hero2-section{
+    width: 100%;
+    height: 90vh;
+}
+.hero2-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.left-part2{
+    color: white;
+}
+.left-part2 h2{
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+.left-part2 p{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+.right-part2{
+    position: relative;
+    z-index: 1;
+}
+.sub-hero3-section{
+
+    width: 100%;
+    height: 90vh;
+}
+.hero3-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+.left-part3{
+    color: white;
+}
+.left-part3 h2{
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+.left-part3 p{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+.ask-wrapper{
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.ask-container h3{
+   font-size: 3.4rem;
+   font-weight: bold;
+   text-align: center;
+   color: white;
+   
+}
+.paragraph1{
+    background-color: rgb(12, 39, 102);
+    padding: 1.5rem 9rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.paragraph2{
+    background-color: rgb(12, 39, 102);
+    padding: 1.5rem 9rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.paragraph3{
+    background-color: rgb(12, 39, 102);
+    padding: 1.5rem 9rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.paragraph4{
+    background-color: rgb(12, 39, 102);
+    padding: 1.5rem 9rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.paragraph5{
+    background-color: rgb(12, 39, 102);
+    padding: 1.5rem 9rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.paragraph1:hover{
+    background-color: rgb(6, 6, 130);
+    cursor: pointer;
+}
+.paragraph2:hover{
+    background-color: rgb(6, 6, 130);
+    cursor: pointer;
+}
+.paragraph3:hover{
+    background-color: rgb(6, 6, 130);
+    cursor: pointer;
+}
+.paragraph4:hover{
+    background-color: rgb(6, 6, 130);
+    cursor: pointer;
+}
+.paragraph5:hover{
+    background-color: rgb(6, 6, 130);
+    cursor: pointer;
+}
+.paragraph6{
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+.footer-container{
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+
+}
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    max-width: 1100px;
+}
+.footer-one{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.footer-two{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.footer-three{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.question{
+    color: white;
+    margin: 2rem;
+    margin-top: 5rem;
+    cursor: pointer;
+   
+}
+a{
+    color: whitesmoke;
+    margin-top: 1rem;
+}
+
+.foot select {
+    margin-left: 10rem;
+}
+.foot p{
+    color: white;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
